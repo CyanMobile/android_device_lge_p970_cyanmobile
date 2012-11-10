@@ -42,6 +42,10 @@ loglevel 3
     mkdir /mnt 0775 root system
     mkdir /mnt/sdcard 0000 system system
 
+# CyanMobile
+    setprop persist.sys.gmaps_hack 1
+    setprop ro.squadzone.build 1
+
 # Create cgroup mount point for cpu accounting
     mkdir /acct
     mount cgroup none /acct cpuacct

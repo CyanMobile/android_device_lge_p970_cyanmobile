@@ -29,6 +29,8 @@ TARGET_PREBUILT_KERNEL := device/lge/p970/kernel
 
 BOARD_NEEDS_CUTILS_LOG := true
 
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/lge/p500/recovery/recovery_ui.c
+
 BOARD_HAS_NO_SELECT_BUTTON := true
 # Use this flag if the board has a ext4 partition larger than 2gb
 #BOARD_HAS_LARGE_FILESYSTEM := true
