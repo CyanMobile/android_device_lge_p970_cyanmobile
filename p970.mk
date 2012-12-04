@@ -101,31 +101,31 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbridge \
     cexec.out \
-    libOMX_Core \
-    libOMX.TI.Video.Decoder \
-    libOMX.TI.Video.encoder \
-    libOMX.TI.WBAMR.decode \
-    libOMX.TI.AAC.encode \
-    libOMX.TI.G722.decode \
-    libOMX.TI.WMA.decode \
-    libOMX.TI.Video.encoder \
-    libOMX.TI.WBAMR.encode \
-    libOMX.TI.G729.encode \
-    libOMX.TI.AAC.decode \
-    libOMX.TI.VPP \
-    libOMX.TI.G711.encode \
-    libOMX.TI.JPEG.encoder \
-    libOMX.TI.G711.decode \
-    libOMX.TI.ILBC.decode \
-    libOMX.TI.ILBC.encode \
-    libOMX.TI.AMR.encode \
-    libOMX.TI.G722.encode \
-    libOMX.TI.JPEG.decoder \
-    libOMX.TI.G726.encode \
-    libOMX.TI.G729.decode \
-    libOMX.TI.Video.Decoder \
-    libOMX.TI.AMR.decode \
-    libOMX.TI.G726.decode
+    libOMX_Core 
+#    libOMX.TI.Video.Decoder \
+#    libOMX.TI.Video.encoder \
+#    libOMX.TI.WBAMR.decode \
+#    libOMX.TI.AAC.encode \
+#    libOMX.TI.G722.decode \
+#    libOMX.TI.WMA.decode \
+#    libOMX.TI.Video.encoder \
+#    libOMX.TI.WBAMR.encode \
+#   libOMX.TI.G729.encode \
+#   libOMX.TI.AAC.decode \
+#    libOMX.TI.VPP \
+#    libOMX.TI.G711.encode \
+#    libOMX.TI.JPEG.encoder \
+#    libOMX.TI.G711.decode \
+#    libOMX.TI.ILBC.decode \
+#    libOMX.TI.ILBC.encode \
+#   libOMX.TI.AMR.encode \
+#    libOMX.TI.G722.encode \
+#    libOMX.TI.JPEG.decoder \
+#    libOMX.TI.G726.encode \
+#    libOMX.TI.G729.decode \
+#    libOMX.TI.Video.Decoder \
+#    libOMX.TI.AMR.decode \
+#    libOMX.TI.G726.decode
 
 # OpenMAX IL configuration
 TI_OMX_POLICY_MANAGER := hardware/ti/omx/system/src/openmax_il/omx_policy_manager
