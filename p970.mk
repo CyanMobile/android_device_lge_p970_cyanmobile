@@ -107,7 +107,6 @@ PRODUCT_PACKAGES += \
     libOMX.TI.WBAMR.decode \
     libOMX.TI.AAC.encode \
     libOMX.TI.G722.decode \
-    #libOMX.TI.MP3.decode 
     libOMX.TI.WMA.decode \
     libOMX.TI.Video.encoder \
     libOMX.TI.WBAMR.encode \
