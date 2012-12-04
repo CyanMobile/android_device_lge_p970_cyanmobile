@@ -102,7 +102,6 @@ PRODUCT_PACKAGES += \
     libbridge \
     cexec.out \
     libOMX_Core \
-    libLCML \
     libOMX.TI.Video.Decoder \
     libOMX.TI.Video.encoder \
     libOMX.TI.WBAMR.decode \
